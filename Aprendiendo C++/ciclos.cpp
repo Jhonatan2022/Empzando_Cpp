@@ -29,6 +29,7 @@ int main(int argc, char const *argv[])
 		cout<<"No aprobado: "<<c;
 	}
 
+	
     while (cantidad < 5)
     {
         cout << "Se encuentra " << cantidad + 1 << "\tveces" << endl;
