@@ -1,10 +1,15 @@
 #include <iostream>
 using namespace std;
+
 int a, b, numero, vinicio = 0, vfinal = 0, acel = 0, t = 0, op;
-int main(int argc, char const *argv[])
-{
+
+int main(int argc, char const *argv[]) {
+
+    // Solicitar la opcion que desea usar
     cout << "Digite un la opcion que desea usar \n 1. Calculadora sencilla \n 2. Tablas de multiplicar \n 3. Calcular la acelarecion de un vehiculo. \nOpcion : ";
     cin >> op;
+
+    // Menu de opciones
     switch (op)
     {
     case 1:
@@ -18,8 +23,10 @@ int main(int argc, char const *argv[])
         cout << "La multiplicacion de los numeros es: " << a * b << endl;
         cout << "La division de los numeros es: " << a / b << endl;
         cout << "El residuo es: " << a % b << endl;
+        // Para que el programa no se cierre
         system("pause");
         return EXIT_SUCCESS;
+
     case 2: // Imprimir tablas de multiplicar de un número ingresado
         cout << "\nSegundo ejercicio con tablas de multiplicar" << endl;
         do
@@ -31,8 +38,10 @@ int main(int argc, char const *argv[])
         {
             cout << numero << " * " << i << " = " << numero * i << endl;
         }
+        // Para que el programa no se cierre
         system("pause");
         return EXIT_SUCCESS;
+
     case 3: // calcular la velocidad
         cout << "\nCalcular la aceleracion de un vehiculo: ";
         cout << "Introduce la velocidad inicial: ";
@@ -43,8 +52,10 @@ int main(int argc, char const *argv[])
         cin >> t;
         acel = (vfinal - vinicio) / t;
         cout << "La acelacion del vehiculo es:\n " << acel << endl;
+        // Para que el programa no se cierre
         system("pause");
         return EXIT_SUCCESS;
+
     default: // No ha dijitado una opcion disponible
         cout << "No ha elegido una opcion del 1 al 3";
     }
