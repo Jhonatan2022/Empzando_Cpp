@@ -1,3 +1,4 @@
+// Implementar una clase derivada de otra clase
 #include <iostream>
 #include <math.h>
 #include <ctype.h>
@@ -5,13 +6,18 @@
 
 using namespace std;
 
+// Declaracion de variables
 const double pi = 3.1416;
 class circulo
 {
+// Atributos
 protected:
     double radio;
 
+// Metodos
 public:
+
+    // Funcion principal
     void asignar(double R) { radio = R; }
     double area() { return (pi * pow(radio, 2)); }
     void mostrar_data()
@@ -35,21 +41,32 @@ public:
         altura = h;
         radio = r;
     }
+
+    // Funcion principal
     double volumen() { return (4 * pi * pow(radio, 3) / 3.0); }
+
+    // Funcion principal
     void mostrar_data()
     {
+        // Funcion principal
         cout << "Radio= " << radio << endl;
-        cout << "Volumen= " << volumen() << endl<< endl;
+        cout << "Volumen= " << volumen() << endl
+             << endl;
         cout << "Continuar..." << endl;
         getch();
     }
 };
 
+
+// Funcion principal
 main()
 {
+    // Declaracion de variables
     circulo Cir1;
     cilindro Cil1;
     double Ra, altura;
+
+    // Funcion principal
     cout << "Calcularemos el area de un circulo:" << endl;
     cout << "Ingrese el radio: ";
     cin >> Ra;
