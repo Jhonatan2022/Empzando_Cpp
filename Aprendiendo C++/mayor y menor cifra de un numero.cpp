@@ -4,29 +4,37 @@
 
 using namespace std;
 
-main(){
-    
+main()
+{
+
+    // Declaracion de variables
     int n, digmenor, digmayor, digito;
 
+    // Asignamos valores iniciales
     digmenor = 9;
     digmayor = 0;
 
     cout << "Ingrese un numero entero: ";
     cin >> n;
 
-    do{
+    // Calculamos el digito mayor y menor
+    do
+    {
         digito = n % 10;
-        if (digito < digmenor){
+        if (digito < digmenor)
+        {
             digmenor = digito;
         }
 
-        if (digito > digmayor){
+        if (digito > digmayor)
+        {
             digmayor = digito;
         }
 
         n = (n - digito) / 10;
     } while (n > 0);
 
-    cout << "\nDigito menor es: " <<digmenor<<"\nMayor es: " << digmayor << "";
+    // Mostramos el resultado
+    cout << "\nDigito menor es: " << digmenor << "\nMayor es: " << digmayor << "";
     getch();
 }

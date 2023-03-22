@@ -10,11 +10,11 @@ using namespace std;
 const double pi = 3.1416;
 class circulo
 {
-// Atributos
+    // Atributos
 protected:
     double radio;
 
-// Metodos
+    // Metodos
 public:
 
     // Funcion principal
@@ -22,6 +22,8 @@ public:
     double area() { return (pi * pow(radio, 2)); }
     void mostrar_data()
     {
+        
+        // Funcion principal
         cout << "Radio =\t" << radio << endl;
         cout << "Area =\t" << area() << endl
              << endl;
@@ -56,7 +58,6 @@ public:
         getch();
     }
 };
-
 
 // Funcion principal
 main()

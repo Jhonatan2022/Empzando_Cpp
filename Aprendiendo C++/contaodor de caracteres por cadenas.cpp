@@ -67,7 +67,12 @@ int longitud_info(char cadena[])
 // Mostramos la informacion ingresada por el usuario
 void mostrar_info(char caracteres[])
 {
+    // Declaracion de variables
     register int i;
+
+    // Funcion principal
     for (i = 0; caracteres[i]; i++)
+
+        // Mostramos la informacion
         putchar(caracteres[i]);
 }
