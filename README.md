@@ -15,7 +15,7 @@
 </p>
 
 <p align="left">
-  💌 To contact me:
+  💌 To contact me: Florezj328gmail.com
 </p>
 
 <p align="left">
