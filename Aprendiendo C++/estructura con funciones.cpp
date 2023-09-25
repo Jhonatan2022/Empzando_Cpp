@@ -2,7 +2,6 @@
 #include <conio.h>
 
 using namespace std;
-
 struct datos
 {
     // Declaracion de variables
