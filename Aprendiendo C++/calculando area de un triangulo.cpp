@@ -31,28 +31,3 @@ int main(int argc, char const *argv[])
     // Se detiene la ejecucion del programa
     getch();
 }
-/* otra forma:
-    cout<<"El area del triangulo de "<<a<<", "<<b<<", "<<c<<" es: "<<at;
-    getch();*/
-
-// Mismo ejercicio pero con el metodo if
-
-/*
-float a,b,c;
-float p,at,r;
-
-cout<<"Ingrese el valor del lado a: ";cin>>a;
-cout<<"Ingrese el valor del lado b: ";cin>>b;
-cout<<"Ingrese el valor del lado c: ";cin>>c;
-
-p=(a+b+c)/2.0;
-r=p*(p-a)*(p-b)*(p-c);
-
-if (r>=0){
-    at=sqrt(r);
-    cout<<at;
-    }else{
-        cout<<"No existe tal triangulo...!";
-        }
-
-    getch();*/

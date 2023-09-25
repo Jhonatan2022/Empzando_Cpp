@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 // Definimos que tipo de valor sera la variable

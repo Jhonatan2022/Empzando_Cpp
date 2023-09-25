@@ -46,5 +46,3 @@ int main() {
     system("pause");
     return 0;
 }
-// Comando para compilar: g++  factorial.cpp -o factorial
-// Comando para ejecutar: ./factorial

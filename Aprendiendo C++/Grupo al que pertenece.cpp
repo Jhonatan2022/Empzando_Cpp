@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 // Declaracion de variables
@@ -8,7 +7,6 @@ int edad;
 
 int main(int argc, char const *argv[])
 {
-
     // Pedimos al usuario que ingrese los datos necesarios
     cout << "Digite el nombre de la persona: ";
     cin >> nombre;

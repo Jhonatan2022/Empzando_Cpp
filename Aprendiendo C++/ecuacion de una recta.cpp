@@ -9,7 +9,6 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-
     // Declaracion de variables
     float y, m, x, b;
 
@@ -27,12 +26,10 @@ int main(int argc, char const *argv[])
     // Calculamos el valor de b
     b = y - m * x;
 
-
     // Mostramos el resultado
     cout << "\nLa ecuacion de la recta es:";
     cout << "\nY=mX+b , donde: ";
     cout << "m = " << m << "";
     cout << "b = " << b << "";
-
-    getch();
+   getch();
 }
